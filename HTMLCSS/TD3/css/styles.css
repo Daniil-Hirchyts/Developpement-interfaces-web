@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Bebas Neue';
+}
+
+h3 {
+    border: 1px solid #CCC;
+}
+
+
+body {
+    background-color: #838892;
+    width: 600px;
+    line-height:150%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent:5px;
+    margin: 30px 0;
+}
+
+.pair {
+    background-color: #FF5850;
+}
+
+.impair {
+    background-color: #5BBDBF;
+}
+
+#beware {
+    height: 300px;
+}
+
+.skill {
+    color: #FF5850;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {color: #0088FF;}
+
+a:hover {color: #ff5900;}
+
+thead {
+    background-color: #00AAFF;
+}
+
+thead .skill {
+    color: #640051;
+}
+
+tbody tr:nth-child(odd) {background-color: white}
+tr:nth-child(even){background-color: #CCCC}
+
+table .skill {
+    padding: 0 5px;
+}
+
+#chuckJ {
+    height: 150px;
+    float: left;
+    margin: 0 5px 0 0;
+    clear: both;
+}
+
+#beware {
+    float: right;
+    margin: 0 0 0 5px;
+    clear: both;
+}
