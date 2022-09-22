@@ -1,0 +1,9 @@
+.titi span = 11
+ div span = 2
+ nav.titi .tata div div div div div = 26
+ ul li div.skill = 13
+ #id = 100
+ div > a = 2
+ div + a = 2
+
+
