@@ -121,8 +121,9 @@ nav > div > a {
     display: flex;
     justify-content: left;
     align-items: center;
-    height: 100%;
-    padding: 0 10px 0 10px;
+    height: 50%;
+    margin: 10px 0 15px 0;
+    padding: 0 10px;
     border-left: solid 2px #000;
 }
 
