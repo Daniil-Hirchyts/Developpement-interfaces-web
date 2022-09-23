@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+form > fieldset > div{
+    text-align: right;
+    margin: 10px 0;
+}
+
+label {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+body > fieldset > div {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+form p {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+form > fieldset > div > span {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+}
