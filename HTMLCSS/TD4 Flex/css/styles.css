@@ -162,14 +162,20 @@ main {
     align-items: flex-start;
 }
 
-aside {
-    background-color: #CCC;
-    width: 35%;
-}
-
 article {
     background-color: #CCC;
     width: 60%;
+    position: relative;
+    display: block;
+}
+
+aside {
+    position: absolute;
+    height: 100%;
+    display: block;
+    left: 60%;
+    width: 35%;
+    background-color: #CCC;
 }
 
 
