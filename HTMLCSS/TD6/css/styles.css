@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Bebas Neue';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 150%;
+    background-color: #a7a7a7;
+    margin: 0;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin: 1%;
+    background-color: #838892;
+    border-radius: 5px;
+}
+
+article {
+    flex-direction: column;
+    width: 300px;
+    flex-shrink: 2;
+    flex-grow: 3;
+    background-color: #CCC;
+    max-width: 800px;
+    min-width: 200px;
+    margin: 0 0 0 0;
+    border-radius: 5px;
+}
+
+aside {
+    flex-direction: column;
+     width: 200px;
+    background-color: #CCC;
+    max-width: 350px;
+    min-width: 150px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+nav {
+    text-align: left;
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    height: 50px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav > div {
+    display: block;
+    background-color: #5BBDBF;
+    width: 100px;
+    height: 50px;
+}
+
+nav > div > a {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50%;
+    margin: 10px 0 15px 0;
+    padding: 0 10px;
+    border-left: solid 2px #000;
+}
+
+nav > div:first-child a {
+    border-left: none;
+}
+
+nav > div:first-child {
+    border-radius: 5px 0 0 0;
+}
+nav > div:last-child {
+    border-radius: 0 5px 0 0;
+}
+
+.submenu {
+    display: none;
+    background-color: #aca;
+    border-radius: 0 0 5px 5px;
+}
+
+nav > div:hover .submenu {
+    display: block;
+}
+
+nav div a .puce {
+    visibility:hidden;
+}
+nav div a:hover .puce {
+    visibility:visible;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px 10px;
+}
+
+h3 {
+    border: 1px solid #878787;
+    padding: 0 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 5px;
+    margin: 30px 0;
+    padding: 0 10px;
+}
+
+.pair {
+    background-color: #FF5850;
+}
+
+.impair {
+    background-color: #5BBDBF;
+}
+
+.skill {
+    color: #FF5850;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0088FF;
+}
+
+a:hover {
+    color: #ff5900;
+}
+
+thead {
+    background-color: #00AAFF;
+}
+
+thead .skill {
+    color: #640051;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white
+}
+
+tr:nth-child(even) {
+    background-color: #CCCC
+}
+
+table .skill {
+    padding: 0 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table {
+    overflow-x: auto;
+}
+
+img {
+    border-radius: 5px;
+}
+
+#chuckJ {
+    height: 150px;
+    float: left;
+    margin: 0 5px 0 5px;
+    clear: both;
+}
+
+#beware {
+    height: 300px;
+    float: right;
+    margin: 0 0 0 5px;
+    clear: both;
+}
+
+#links {
+    bottom: 0;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+}
+
+@media(max-width:768px) {
+    table {
+        display: none;
+    }
+}
+
+@media(max-width:480px) {
+    aside, article {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:168px) {
+    aside .pair, ul, article, header{
+        display: none;
+    }
+}

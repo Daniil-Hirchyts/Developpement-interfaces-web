@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link href="./css/styles2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div>
+    <form action="sendToMySecondYearInIut.php" method="get">
+        <fieldset>
+            <legend>Informations personnelles</legend>
+            <div>
+                <label for="surname">Nom</label>
+                <input id="surname" name="surname" type="text" tabindex="1" required>
+            </div>
+            <div>
+                <label for="name">Prenom</label>
+                <input id="name" name="name" type="text">
+            </div>
+            <div>
+                <p>Sexe</p>
+                <span><label>Féminin<input id="fem" name="sexe" type="radio" value="f"></label>
+          <label>Masculin<input id="mas" name="sexe" type="radio" value="m"></label></span>
+
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input id="date" name="date" type="date">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" tabindex="2" placeholder="yourmail@domain.com" required>
+            </div>
+            <div>
+                <label for="pay">Pays d’origine</label>
+                <select id="pay" name="pay">
+                    <option value="usa">U.S.A</option>
+                    <option value="fr">France</option>
+                    <option value="ch">Chine</option>
+                    <option value="vn">Viêt Nam</option>
+                </select></div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Inscription</legend>
+            <div>
+                <label for="password">Mot de passe</label>
+                <input id="password" name="password" type="password" pattern="[a-zA-Z0-9]{8,}" required>
+            </div>
+            <div>
+                <p>Niveau d’engagement</p>
+                <span>
+          <label class="checkbox">Basique (5 €)<input id="O1" name="Niveau E" type="radio" checked></label>
+          <label class="checkbox">Gold (15 €)<input id="O2" name="Niveau E" type="radio"></label>
+          <label class="checkbox">Tatane in your face (50 €)<input id="O3" name="Niveau E" type="radio"></label>
+          </span>
+            </div>
+            <div>
+                <label for="mes">Message pour Chuck</label>
+                <textarea rows="4" cols="20" id="mes" name="mes"  placeholder="Un inscrit sera tiré au sort, et verra son message transmis à Chuck Norris."></textarea>
+            </div>
+            <div>
+                <p>J’ai bien lu les clauses que je n’ai pas lues</p>
+                <label><input id="checkbox1" name="checkbox1" type="checkbox" v required></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Les sports de combat</legend>
+            <div>
+                <label for="amp">Arts-martiaux préférés</label>
+                <select id="amp" multiple name="amp" size="2">
+                    <option value="kf">Kung fu</option>
+                    <option value="k">Karaté</option>
+                    <option value="fc">Full-contact</option>
+                </select></div>
+
+            <div>
+                <label for="number">Niveau en karaté</label>
+                <input id="number" max="5" min="0" name="Niveau K" type="number">
+            </div>
+
+
+        </fieldset>
+        <div><input type="submit" value="Submit"></div>
+    </form>
+</div>
+
+</body>
+</html>
