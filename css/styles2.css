@@ -1,7 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Bebas Neue';
+}
+
+
+html {
+    background: #bebebe;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
 form {
     display: flex;
     flex-direction: column;
-    float: left;
+    justify-content: center;
+    background: #838892;
+    border-radius: 5px;
+    padding: 5%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .15);
 }
 
 form > fieldset > div{
@@ -32,6 +55,14 @@ form > fieldset > div > span {
     flex-direction: column;
 }
 
+form > fieldset{
+    margin: 0 0 30px 0;
+    background: #c0c0c0;
+    border-radius: 5px;
+    padding: 5%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -42,3 +73,22 @@ body {
 textarea {
     resize: none;
 }
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+legend {
+    text-decoration: none;
+    font: 1.5rem 'Bebas Neue', cursive;
+    margin: 10% 5%;
+    color: #FFF;
+    background: #838892;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+}
+

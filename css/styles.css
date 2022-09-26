@@ -259,6 +259,15 @@ img {
     right: 0;
 }
 
+.adresse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 @media(max-width:768px) {
     table {display: none;}
     header{
