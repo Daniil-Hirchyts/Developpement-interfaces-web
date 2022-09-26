@@ -241,13 +241,11 @@ img {
 }
 #chuckJ {
     max-height: 150px;
-    width: auto;
     float: left;
     clear: both;
 }
 #beware {
     max-height: 300px;
-    width: auto;
     float: right;
     clear: both;
 }
