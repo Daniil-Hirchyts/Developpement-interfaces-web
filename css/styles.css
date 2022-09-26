@@ -236,7 +236,7 @@ img {
     border-radius: 5px;
     margin: 0 5px 0 5px;
     width: 100%;
-    height: auto;
+    height: 100%;
     max-width: max-content;
 }
 #chuckJ {
@@ -246,6 +246,7 @@ img {
 }
 #beware {
     max-height: 300px;
+    width: auto;
     float: right;
     clear: both;
 }
