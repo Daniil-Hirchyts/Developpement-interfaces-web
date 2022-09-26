@@ -8,9 +8,8 @@
 </head>
 <body id="debut">
 
-<header>
-
-    <blockquote>
+<header class="item">
+    <div class="blockquote"><blockquote>
         <p>
             "Little John : Braddock ! Je vous préviens, attention où vous mettez les pieds !
             Braddock : Je mets les pieds où je veux, Little John… et c'est souvent dans la gueule."
@@ -20,8 +19,21 @@
                 Norris, Steve Bing
             </cite>
         </p>
-    </blockquote>
-    <nav>
+    </blockquote></div>
+
+    <div class="burger">
+        <div class="burger_container">
+                <input class="checkbox" type="checkbox" name="" id="" >
+                <img src="images/burger.png" alt="burger">
+            <div id="menu2">
+            <div><a href="./index.html">Accueil</a></div>
+            <div><a href="./facts.html">Facts</a></div>
+            <div><a href="./news.html">Actualités</a></div>
+            <div><a href="./contact.html">Contact</a></div></div>
+        </div>
+    </div>
+
+    <div class="nav"><nav>
         <div><a href="./index.html">Accueil</a><div class="submenu">
             <div><a href="./inscription.html"><span class="puce">■</span> Inscription</a></div>
             <div><a href="./two.html"><span class="puce">■</span> two</a></div>
@@ -34,13 +46,14 @@
             <div><a href="./other.html"><span class="puce">■</span> other</a></div>
             <div><a href="./another.html"><span class="puce">■</span> another</a></div></div>
         </div>
-    </nav>
+    </nav></div>
 
 </header>
 
-<main>
+<main >
 
-    <article>
+    <article class="item">
+        <div>
         <h2 class="impair">Biographie (From Wikipedia)</h2>
 
         <h3 class="impair">L'enfance</h3>
@@ -132,9 +145,10 @@
             Il se remarie, en 1998, avec l'ancien mannequin Gena O'Kelley qui lui a donné des jumeaux en 2002 : Dakota
             Alan Norris, un garçon, et Danilee Kelly Norris, une fille.
         </p>
+        </div>
     </article>
 
-    <aside>
+    <aside class="item">
         <h2 class="pair">Les sites amis</h2>
 
         <ul>
@@ -236,11 +250,10 @@
 
 <div id="links">
     <img src="./images/facebook.png" alt="facebook">
-    <br>
     <img src="./images/twitter.png" alt="twitter">
 </div>
 
-<footer>
+<footer class="item">
     <div>
     <a href="index.html#debut">Retour au début</a>
     </div>
