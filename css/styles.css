@@ -299,3 +299,8 @@ img {
         display: none;
     }
 }
+
+#ls {
+    display: none;
+    visibility: hidden;
+}
